@@ -22,43 +22,43 @@ def index():
 @app.route('/left_side')
 def left_side():
     data1="LEFT"
-#    arduino.write('a')
-#    time.sleep(0.3)
- #   arduino.write('p')
+    arduino.write('a')
+    time.sleep(0.3)
+    arduino.write('p')
     print data1
     return 'true'
 
 @app.route('/right_side')
 def right_side():
    data1="RIGHT"
-#   arduino.write('d')
-#   time.sleep(0.3)
- #  arduino.write('p')
+   arduino.write('d')
+   time.sleep(0.3)
+   arduino.write('p')
    print data1
    return 'true'
 
 @app.route('/up_side')
 def up_side():
    data1="FORWARD"
-  # arduino.write('w')
-  # time.sleep(0.3)
-   #arduino.write('p')
+   arduino.write('w')
+   time.sleep(0.3)
+   arduino.write('p')
    print data1
    return 'true'
 
 @app.route('/down_side')
 def down_side():
    data1="BACK"    
- #  arduino.write('w')
-  # time.sleep(0.3)
-  # arduino.write('p')
+   arduino.write('w')
+   time.sleep(0.3)
+   arduino.write('p')
    print data1
    return 'true'
 
 @app.route('/stop')
 def stop():
    data1="STOP"
-   #arduino.write('p')
+   arduino.write('p')
    print data1
    return  'true'
 
