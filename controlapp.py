@@ -23,7 +23,7 @@ def index():
 def left_side():
     data1="LEFT"
     arduino.write('a')
-    time.sleep(0.3)
+    time.sleep(0.5)
     arduino.write('p')
     print data1
     return 'true'
@@ -32,7 +32,7 @@ def left_side():
 def right_side():
    data1="RIGHT"
    arduino.write('d')
-   time.sleep(0.3)
+   time.sleep(0.5)
    arduino.write('p')
    print data1
    return 'true'
@@ -41,7 +41,6 @@ def right_side():
 def up_side():
    data1="FORWARD"
    arduino.write('w')
-   time.sleep(0.3)
    arduino.write('p')
    print data1
    return 'true'
@@ -49,8 +48,7 @@ def up_side():
 @app.route('/down_side')
 def down_side():
    data1="BACK"    
-   arduino.write('w')
-   time.sleep(0.3)
+   arduino.write('s')
    arduino.write('p')
    print data1
    return 'true'
