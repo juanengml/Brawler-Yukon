@@ -15,7 +15,9 @@ void setup() {
  pinMode(pin2,OUTPUT);  // MOTOR A 
  pinMode(pin7,OUTPUT);
  pinMode(pin8,OUTPUT);
- Serial.println("BigRobot RUNNING...");
+ Serial.println("BigRobot Comunity");
+ Serial.println("PVC Robot Starter Server Control....");
+ Serial.println("Robot Name: Brawler-Yukon");
 
 }
 
