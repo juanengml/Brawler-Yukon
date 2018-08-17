@@ -22,6 +22,16 @@ else:
     comm = False
 
 
+def TratarImagem(img,ret):
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) 
+        image = Image.fromarray(gray)  
+        width, height = image.size 
+        zbar_image = zbar.Image(width, height, 'Y800', image.tostring())
+        scanner = zbar.ImageScanner() 
+        scanner.scan(zbar_image)  
+        return img
+
+
 def main():
     
     capture = cv2.VideoCapture(1) 
@@ -30,13 +40,8 @@ def main():
         if cv2.waitKey(1) & 0xFF == ord('q'): 
             break
         ret, ibagem = capture.read() 
-        gray = cv2.cvtColor(ibagem, cv2.COLOR_BGR2GRAY) 
-        image = Image.fromarray(gray)  
-        width, height = image.size 
-        zbar_image = zbar.Image(width, height, 'Y800', image.tostring())
-        scanner = zbar.ImageScanner() 
-        scanner.scan(zbar_image)  
-        cv2.imshow('Detect QRCODE', ibagem)
+        img = TratarImagem(ibagem,ret)
+        cv2.imshow('Detect QRCODE', img)
 #        cv2.imshow('gray', gray)
 
         for decoded in zbar_image: 
