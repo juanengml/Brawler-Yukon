@@ -5,6 +5,14 @@
 ## Type Robot: Tracking and Exploration 
 ## Name Robot from Git: Brawler Yukon
 ### Comunidade: BigRobot  
+#### "Um Robo Autonomo Para toda humanidade" By: Comunity
+
+
+## Projetistas
+### (Design Estrutural e Modeladora CAD nivel Humano) - Debora Rodrigues 
+### (Desenvolvedor de Machine Learning nivel Humano) - Juan Manoel 
+### (Engenheiro de Test nivel Felino) - Beijinho Testando base de carga
+### (Engenheiro Eletricista  nivel Felino) - Biscoito Testando resistencia de cabeamento
 
 
 
@@ -16,7 +24,7 @@ Image("pvcrobot1.jpeg")
 
 
 
-![jpeg](output_2_0.jpeg)
+![jpeg](output_3_0.jpeg)
 
 
 
@@ -47,17 +55,71 @@ Flask, OpenCV, PySerial, pyutil, ROS, SimpleCV, Jupyter, QRCODE, PyLidar
 
 
 ### Pra quem é destinado ?
-000000000000
+- Para Entusiastas das robotica e desenvolvedores de tecnologias Self Drive Car, criado de comunidade para comunidades, o projeto tambem é destinado para educadores que querem desenvolver essa plataforma em suas escolas, visto que existe a possibilidade de construção continua e compartilhada, integrando as diversas areas da ciencias como: fisica, matematica e artes.
+### Areas Destinadas para Entusiastas
+- Placas para sistemas embarcados(arduino, intel edson)
+- Sensores de Presição(Kinect,Lidar)
+- Framework de desenvolvimento(Flask, PySerial, PyLidar)
+---
+### Areas Destinadas a Desenvolvedores aplicado a Self-Drive Car
+*  Em desenvolvimento 
+
+
+
+
+---
+### Areas Destinadas para educadores
+- Fisica: Sistemas dinamicos, sistemas eletricos, Forças Lineares e Não Lineares, Forças Centrifuga e Centripeta, Refração das Cores
+- Matematica: Teorias dos Grafos, Geometria Analitica, Algebra Linear
+- Artes: Teoria das Cores, Pintura Refletora, Cores basicas de Absorção
+
 
 ### Como deve ser usado ?
-000000000
+- Ele deve ser usado para fins de pesquisa(Coleta de dados,exploração de terrenos, test de novas tecnologias), educacional(Ensino de como construir um robo em escala media, Ensino de logica de programação, introdução a veiculos autonomos, ensino da fisica aplicado a dinamica, cinematica e mecanica, ensino de informatica aplicado a controle remoto robotico usando interface web, ensino de matematica aplicado a sistemas equacionais lineares, ensino de artes aplicado a modelagem de cores e estrutura como pintura, montagem, marcações, design.
 
 ### Implementações Futuras ?
-900000
+- Suporte de cargas leves e medias
+- Camera trazeira para detecção de colisões
+- Implementação de software Follow-me 
+- Implementação de GPS 
+- Implementação de Sistema Fotovoltaico part 1 (eletrica)
+- Implementação de Sistema Fotovoltaico part 2 (Paineis)
+- Iluminação com leds
+- Cluster of ToolsBox 
+- Modos de Controle(web/Autonomo)
+- Software de Comando basico de Voz
+- Software de geração de rodas via GPS de User e GPS-Robot
+- Implementação de Pacote de Dados 4G para comunicação em Nuvem
+
+###  Areas de Aplicação do Projeto
 
 ## Processo de Montagem 
 ### Estruturação do Chassi para vizualização em escala explodida
 OBs: TODAS AS PARTES POSSUEM MARCAÇÃO COM NUMERAÇÕES
+
+#####  Deve seguir a linha basica de montagem de Estrutural
+1). Alinhagem do Chassi usando Canos PVC com respectivas marcações
+
+2). Alinhamento dos Motores trazeiros 
+
+3). Alinhamento do sistema de direção
+
+4). Construção da etapa 1
+
+5). implementar Motores Trazeiros 
+
+6). Cortar chapa de madeira para direção 
+
+7). Adicionar Roda boba modificada para direção 
+
+8). Adicionar chapa madeira em conjunto com chassi de pvc 
+
+9). Com a estrutura de motores trazeiros adicione sistema de direção
+
+10). Pintar 
+
+##### Deve seguir a linha basica de montagem eletrica 
+
 
 
 ```python
@@ -69,7 +131,7 @@ Image("./chassi/20180514_215953.jpg")
 
 
 
-![jpeg](output_5_0.jpeg)
+![jpeg](output_7_0.jpeg)
 
 
 
@@ -83,7 +145,7 @@ Image("./chassi/20180514_195308.jpg")
 
 
 
-![jpeg](output_7_0.jpeg)
+![jpeg](output_9_0.jpeg)
 
 
 
@@ -97,7 +159,7 @@ Image("./chassi/Brawler-Yukon-1.png")
 
 
 
-![png](output_9_0.png)
+![png](output_11_0.png)
 
 
 
